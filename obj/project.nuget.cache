@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kIQmR+MRjrs=",
+  "success": true,
+  "projectFilePath": "/Users/stanly/Library/Mobile Documents/com~apple~CloudDocs/UNAH /POO/EXAMEN/ExamenU1/ExamenU1.csproj",
+  "expectedPackageFiles": [
+    "/Users/stanly/.nuget/packages/microsoft.aspnetcore.openapi/10.0.3/microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "/Users/stanly/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/stanly/.nuget/packages/scalar.aspnetcore/2.12.46/scalar.aspnetcore.2.12.46.nupkg.sha512"
+  ],
+  "logs": []
+}
