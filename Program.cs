@@ -8,13 +8,11 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-app.MapOpenApi(); // genera /openapi/v1.json
+app.MapOpenApi();
 
-app.MapScalarApiReference(options =>
-{
-    options.Title = "ExamenU1 API";
-});
+app.MapScalarApiReference(options => { options.Title = "ExamenU1 API";});
 
+app.UseHttpsRedirection();
 
 app.MapControllers();
 app.Run();
